@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <title>select</title>
 </head>
+ <link rel="stylesheet" type="text/css" href="main.css">
 <body>
-    <h1>select</h1>
-    <h2>Criar um Código com o formulário select</h2>
-    <p>O select serve para selecionar algo</p>
-    <form>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gabarito Exercício Botões</title>
+    <style type="text/css">
+       
+    </style>
+</head>
+<body>
+<div class="center white-background">
+
+     <form>
         <label for="my_select">Selecione o valor:</label>
         <select id="my_select" required>
             <option value="father_stretch_my_hands_pt_1">Father Stretch My Hands pt. 1</option>
@@ -20,7 +28,39 @@
         </select>
 
         <button type="submit" id="enviar">Enviar</button>
-    </form>
+    </form> 
+
+</div>
+</body>
+<script type="text/javascript">
+
+    // essa variável é global; ela 'vaza' para dentro do escopo das funções
+
+
+    function father() {
+        if (option===father_stretch_my_hands_pt_1) {
+            <
+        }
+    }    
+
+     function change_img_func() {
+        let src = document.getElementById('minha_imagem').src;
+        let splitted = src.split('/');
+        let old = splitted[splitted.length - 1];
+        let filename;
+
+        if(old === 'goku.jpg') {
+            filename = 'ye_smiling.jpg';
+        } else {
+            filename = 'goku.jpg';
+        }
+        src = src.replace(old, filename);
+        document.getElementById('minha_imagem').src = src;
+
+        console.log('Imagem trocada!');
+    }
+</script>
+</html>
 
 </body>
 </html>
